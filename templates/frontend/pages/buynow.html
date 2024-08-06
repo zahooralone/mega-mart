@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <title>Document</title>
+
+
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+    body {
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+    }
+</style>
+
+
+<body>
+
+    <div class="container mb-4">
+        <div class="row bg-info">
+            <div class="col-md-2 text-white pt-3 ">
+                <p>Returning customer</p>
+            </div>
+            <div class="col-md-10 text-black " style="border: none;">
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item" style="border: none;">
+                        <h6 class="accordion-header" id="headingOne">
+                            <div class="bg-info pt-3" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                click here to login
+                            </div>
+                        </h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+            data-bs-parent="#accordionSafe">
+            <div class="accordion-body">
+                <div class="row justify-content-center">
+                    <div class="col-8">
+                        <form class="form" style="width: 100%;">
+                            <div class="mb-3">
+                                <p>If you have shopped with us before, please enter your details below. If you
+                                    are a new customer, please proceed to the Billing section.</p>
+                                <label for="" class="form-label">Username or
+                                    Email</label>
+                                <input type="email" class="form-control" style="background-color:  #E6CC93;"
+                                    placeholder="">
+                            </div>
+                            <div class="mb-3">
+                                <label for="" class="form-label">Password</label>
+                                <input type="password" class="form-control" style="background-color:  #E6CC93;"
+                                    placeholder="">
+                            </div>
+                            <div class="mb-3">
+                                <p>No apps configured. Please contact your administrator.</p>
+                                <div class="form-check">
+                                    <input type="checkbox" class="form-check-input" id="">
+                                    <label class="form-check-label" for="">
+                                        Remember me
+                                    </label>
+                                </div>
+                            </div>
+                            <button class="btn btn-dark" style="width: 100%;" type="submit">Log In</button>
+                            <p>Lost your password</p>
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="container mb-4">
+        <div class="row bg-info">
+            <div class="col-md-2 text-white mt-3">
+                <p>Returning customer</p>
+            </div>
+            <div class="col-md-10 text-black" style="border: none;">
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item" style="border: none;">
+                        <h6 class="accordion-header" id="headingtwo">
+                            <div class=" bg-info pt-3" style="border: none;" type="button"
+                                data-bs-toggle="collapse" data-bs-target="#collapsetwo" aria-expanded="true"
+                                aria-controls="collapseOne">
+                                click here to Enter your code
+                            </div>
+                        </h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="collapsetwo" class="accordion-collapse collapse show" aria-labelledby="headingtwo"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+                <form class="" style="width: 100%;">
+                    <div class="mb-3">
+                        <label for="exampleDropdownFormEmail2" class="form-label">If you have a coupon code,
+                            please apply it below.</label>
+                    </div>
+                    <div class="container" style="border: solid black; background-color:  #E6CC93;">
+                        <div class="row mt-2">
+                            <div class="col-9">
+                                <input type="email" class="form-control"
+                                    style="background-color:  #E6CC93; border:none;" id="exampleDropdownFormEmail2"
+                                    placeholder="">
+                            </div>
+                            <div class="col-md-3">
+                                <button type="button" class="btn btn-dark mb-2">Apply Coupon</button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="container mb-4">
+        <div class="row">
+            <div class="col-md-7">
+                <h2>Billing Details</h2>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="mb-3">
+                            <label for="exampleInputPassword1" class="form-label">First Name</label>
+                            <input type="email" class="form-control" style="background-color:  #E6CC93; "
+                                id=" exampleInputPassword1">
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="mb-3">
+                            <label for="exampleInputPassword1" class="form-label">Last Name</label>
+                            <input type="email" class="form-control" style="background-color:  #E6CC93;" id="
+                                exampleInputPassword1">
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <p>Country/Region</p>
+                    <div class="col-12">
+                        <div class="dropdown9">
+                            <button style="width: 100%; padding-left:600px;" class="btn btn-light dropdown-toggle"
+                                type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                            </button>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                <li><a class="dropdown-item" href="#">india</a></li>
+                                <li><a class="dropdown-item" href="#">pakistan</a></li>
+                                <li><a class="dropdown-item" href="#">china</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="mb-4 mt-3">
+                        <label for="exampleInputPassword1" class="form-label">Street Address</label>
+                        <input type="email" class="form-control" style="background-color: #E6CC93;"
+                            placeholder=" house number and street name">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="mb-3 mt-3">
+                        <input type="email" class="form-control" style="background-color:  #E6CC93;"
+                            placeholder=" apartment,suite,unit etc(optional)">
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <label for="exampleInputPassword1" class="form-label">Town/City</label>
+                    <input type="email" class="form-control" style="background-color:  #E6CC93;"
+                        id="exampleInputPassword1">
+                </div>
+                <div class="row">
+                    <p>State/Country</p>
+                    <div class="dropdown">
+                        <button class="btn btn-light dropdown-toggle d-flex"
+                            type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown">hello
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                            <li><a class="dropdown-item" href="#">j&k</a></li>
+                            <li><a class="dropdown-item" href="#">telangana</a></li>
+                            <li><a class="dropdown-item" href="#">kerela</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="mb-3 mt-4">
+                    <label for="exampleInputPassword1" class="form-label">Zip code</label>
+                    <input type="email" class="form-control" style="background-color:  #E6CC93; "
+                        id="exampleInputPassword1">
+                </div>
+                <div class="mb-3 mt-4">
+                    <label for="exampleInputPassword1" class="form-label">Phone.</label>
+                    <input type="email" class="form-control" style="background-color:  #E6CC93;"
+                        id="exampleInputPassword1">
+                </div>
+                <div class="mb-3 mt-4">
+                    <label for="exampleInputPassword1" class="form-label">Email Address</label>
+                    <input type="email" class="form-control" style="background-color:  #E6CC93;" id="
+                        exampleInputPassword1">
+                </div>
+                <div class="form-check">
+                    <input type="checkbox" class="form-check-input" id="">
+                    <label class="form-check-label" for="">
+                        Create an Account
+                    </label>
+                </div>
+                
+                <!-- next address -->
+
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item mt-4">
+                        <h2 class="accordion-header" id="headingOne">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                Ship to a different Adress?
+                            </button>
+                        </h2>
+                    </div>
+                </div>
+                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                    data-bs-parent="#accordionSafe">
+                    <div class="accordion-body">
+
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="mb-3">
+                                    <label for="exampleInputPassword1" class="form-label">First Name</label>
+                                    <input type="email" class="form-control" style="background-color:  #E6CC93; "
+                                        id=" exampleInputPassword1">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="mb-3">
+                                    <label for="exampleInputPassword1" class="form-label">Last Name</label>
+                                    <input type="email" class="form-control" style="background-color:  #E6CC93;" id="
+                                exampleInputPassword1">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <p>Country/Region</p>
+                            <div class="col-12">
+                                <div class="dropdown9">
+                                    <button style="width: 100%; padding-left:600px;"
+                                        class="btn btn-light dropdown-toggle" type="button" id="dropdownMenuButton1"
+                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                    </button>
+                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                        <li><a class="dropdown-item" href="#">india</a></li>
+                                        <li><a class="dropdown-item" href="#">pakistan</a></li>
+                                        <li><a class="dropdown-item" href="#">china</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="mb-4 mt-3">
+                                <label for="exampleInputPassword1" class="form-label">Street Address</label>
+                                <input type="email" class="form-control" style="background-color: #E6CC93;"
+                                    placeholder=" house number and street name">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="mb-3 mt-3">
+                                <input type="email" class="form-control" style="background-color:  #E6CC93;"
+                                    placeholder=" apartment,suite,unit etc(optional)">
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputPassword1" class="form-label">Town/City</label>
+                            <input type="email" class="form-control" style="background-color:  #E6CC93;"
+                                id="exampleInputPassword1">
+                        </div>
+                        <div class="row">
+                            <p>State/Country</p>
+                            <div class="dropdown">
+                                <button style="width: 100%; padding-left:600px;" class="btn btn-light dropdown-toggle"
+                                    type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                </button>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                    <li><a class="dropdown-item" href="#">j&k</a></li>
+                                    <li><a class="dropdown-item" href="#">telangana</a></li>
+                                    <li><a class="dropdown-item" href="#">kerela</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="mb-3 mt-4">
+                            <label for="exampleInputPassword1" class="form-label">Zip code</label>
+                            <input type="email" class="form-control" style="background-color:  #E6CC93; "
+                                id="exampleInputPassword1">
+                        </div>
+                        <div class="mb-3 mt-4">
+                            <label for="exampleInputPassword1" class="form-label">Phone.</label>
+                            <input type="email" class="form-control" style="background-color:  #E6CC93;"
+                                id="exampleInputPassword1">
+                        </div>
+                        <div class="mb-3 mt-4">
+                            <label for="exampleInputPassword1" class="form-label">Email Address</label>
+                            <input type="email" class="form-control" style="background-color:  #E6CC93;" id="
+                        exampleInputPassword1">
+                        </div>
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" id="">
+                            <label class="form-check-label" for="">
+                                Yes, I’m ok with you sending me additional newsletter and email content (optional)
+                            </label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mb-4 mt-4">
+                    <label for="exampleInputPassword1" class="form-label">Order notes (optional)</label>
+                    <input type="email" class="form-control" style="background-color: #E6CC93;"
+                        placeholder=" notes about your order.e,g. special notes for delivery">
+                </div>
+
+            </div>
+
+
+
+
+
+
+            <!-- next adress -->
+
+
+            <div class="col-md-5 pb-4" style="border: solid rgb(212, 214, 228);">
+                <h2>Your Order</h2>
+                <div class="row px-4 pt-2">
+                    <div class="col-md-6 text-align-center">
+                        <p><strong>Product</strong></p>
+
+                        <p> Red & White Embroidered Cotton Kaftan × 1</p>
+                    </div>
+                    <div class="col-md-6 text-align-right">
+                        <p><strong>Sub Total</strong></p>
+                        <p>₹2,025</p>
+                    </div>
+                    <hr>
+                </div>
+                <div class="row px-4 pt-2">
+                    <div class="col-md-6 text-align-center">
+                        <p>Deep Purple Zari Embroidered kaftan × 1 </p>
+                    </div>
+                    <div class="col-md-6 text-align-right">
+                        <p>₹1724</p>
+                    </div>
+                </div>
+                <hr>
+                <div class="row px-4 pt-2">
+                    <div class="col-md-6 text-align-center">
+                        <p><strong>Sub Total</strong></p>
+                    </div>
+                    <div class="col-md-6 text-align-right">
+                        <p><strong>3054</strong></p>
+                    </div>
+                </div>
+                <hr>
+                <div class="row px-4 pt-2">
+                    <div class="col-md-6 text-align-center">
+                        <p><strong>Shipping</strong></p>
+                    </div>
+                    <div class="col-md-6 text-align-right">
+                        <div class="row">
+                            <div class="col-md-10">
+                                <p>free Shipping</p>
+                            </div>
+                            <div class="col-md-2" style="padding-left: 2px;">
+                                <i class="bi bi-circle"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="row px-4 pt-2">
+                    <div class="col-md-6 text-align-center">
+                        <p><strong>COD charges</strong></p>
+                    </div>
+                    <div class="col-md-6 text-align-right">
+                        <p><strong>₹59</strong></p>
+                    </div>
+                </div>
+                <hr>
+                <div class="row px-4 pt-2">
+                    <div class="col-md-6 text-align-center">
+                        <p><strong>Total</strong></p>
+                    </div>
+                    <div class="col-md-6 text-align-right">
+                        <h3><strong>₹3808</strong></h3>
+                    </div>
+                </div>
+                <hr>
+                <div class="row px-4 pt-2">
+                    <div class="col-md-6 text-align-center">
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                            <label class="form-check-label" for="flexRadioDefault1">
+                                <strong>Cash On Delivery</strong>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="col-md-6 text-align-right">
+                    </div>
+                </div>
+                <hr>
+                <div class="row px-4 pt-2">
+                    <div class="col-md-6 text-align-center">
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                            <label class="form-check-label" for="flexRadioDefault1">
+                                <strong>PhonePe Payment Solutions</strong>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="col-md-6 text-align-right">
+                        <img style="width: 100%; height:20px;"
+                            src="https://imgstatic.phonepe.com/images/online-merchant-assets/plugins/woocommerce/2529/405/payment_gateway_logo.png"
+                            alt="">
+                    </div>
+                    <hr>
+                    <div class="the justify-content-center">
+                        <p>All UPI apps, Debit and Credit Cards, and NetBanking accepted | Powered by PhonePe</p>
+                    </div>
+                    <hr>
+                </div>
+                <div class="the justify-content-center">
+                    <p>Your personal data will be used to process your order, support your experience throughout
+                        this
+                        website, and for other purposes described in our privacy policy.</p>
+                </div>
+                <hr>
+                <div class="form-check">
+                    <input type="checkbox" class="form-check-input" id="">
+                    <label class="form-check-label" for="">
+                        I have read and agree to the website terms and conditions *
+                    </label>
+                </div>
+                <button class="btn btn-dark" style="width: 400px;" type="submit">Place Order</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>

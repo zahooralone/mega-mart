@@ -1,0 +1,202 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <title>beans</title>
+</head>
+<style>
+    .card-body {
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-weight: 600;
+    }
+    .texts{
+        text-align: center;
+    }
+    
+    .card-img-overlayy{
+        position: absolute;
+        top: 0;
+    }
+</style>
+
+<body>
+    
+     
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-4 mt-4 mb-4">
+                <div class="card">
+                    <img src="{% static 'images/beetle-beans-jpg.webp' %}" class="card-img-top" alt="...">
+                    <div class="card-img-overlayy">
+                        <button href="#" class="btn btn-dark">Sale!</button>
+                    </div>
+                    <div class="card-body text-center">
+                        <p class="card-text">Kashmiri Red Moong Dal <br>(400gms)
+                            ₹360
+                        </p>
+                        <div class="text-center">     
+                            <a href="{% url 'cart' %}" class="btn btn-dark">Add to Cart</a>
+                            <a href="{% url 'buynow' %}" class="btn btn-warning">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mt-4 mb-4">
+                <div class="card">
+                    <img src="{% static 'images/black-masala-beans-jpg.webp' %}" class="card-img-top" alt="...">
+                    <div class="card-img-overlayy">
+                        <a href="#" class="btn btn-dark">Sale!</a>
+                    </div>
+                    <div class="card-body text-center">
+                        <p class="card-text">black masala beans <br> (400gms) ₹299</p>
+                        <div class="text-center">
+                            <a href="{% url 'cart' %}" class="btn btn-dark">Add to Cart</a>
+                            <a href="{% url 'buynow' %}" class="btn btn-warning">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mt-4 mb-4">
+                <div class="card">
+                    <img src="{% static 'images/fava-beans-2-jpg.webp' %}" class="card-img-top" alt="...">
+                    <div class="card-img-overlayy">
+                        <a href="#" class="btn btn-dark">Sale!</a>
+                    </div>
+                    <div class="card-body text-center">
+                        <p class="card-text">fava beans <br> (400gms)
+                            ₹299</p>
+                        <div class="text-center">
+                            <a href="{% url 'cart' %}" class="btn btn-dark">Add to Cart</a>
+                            <a href="{% url 'buynow' %}" class="btn btn-warning">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mt-4 mb-4">
+                <div class="card">
+                    <img src="{% static 'images/red-kidney-beans-jpg.webp' %}" class="card-img-top" alt="...">
+                    <div class="card-img-overlayy">
+                        <a href="#" class="btn btn-dark">Sale!</a>
+                    </div>
+                    <div class="card-body text-center">
+                        <p class="card-text">red kidney beans <br> (400gms)
+                            ₹299</p>
+                        <div class="text-center">
+                            <a href="{% url 'cart' %}" class="btn btn-dark">Add to Cart</a>
+                            <a href="{% url 'buynow' %}" class="btn btn-warning">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mt-4 mb-4">
+                <div class="card">
+                    <img src="{% static 'images/red-moong-dal-1-jpg.webp' %}" class="card-img-top" alt="...">
+                    <div class="card-img-overlayy">
+                        <a href="#" class="btn btn-dark">Sale!</a>
+                    </div>
+                    <div class="card-body text-center">
+                        <p class="card-text">red moong dal <br> (400gms)
+                            ₹299</p>
+                        <div class="text-center">
+                            <a href="{% url 'cart' %}" class="btn btn-dark">Add to Cart</a>
+                            <a href="{% url 'buynow' %}" class="btn btn-warning">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mt-4 mb-4">
+                <div class="card">
+                    <img src="{% static 'images/yellow-bans-2-jpg (1).webp' %}" class="card-img-top" alt="...">
+                    <div class="card-img-overlayy">
+                        <a href="#" class="btn btn-dark">Sale!</a>
+                    </div>
+                    <div class="card-body text-center">
+                        <p class="card-text">yellow beans <br> (400gms)
+                            ₹299</p>
+                        <div class="text-center">
+                            <a href="{% url 'cart' %}" class="btn btn-dark">Add to Cart</a>
+                            <a href="{% url 'buynow' %}" class="btn btn-warning">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mt-4 mb-4">
+                <div class="card">
+                    <img src="{% static 'images/yellow-bans-2-jpg.webp' %}" class="card-img-top" alt="...">
+                    <div class="card-img-overlayy">
+                        <a href="#" class="btn btn-dark">Sale!</a>
+                    </div>
+                    <div class="card-body text-center">
+                        <p class="card-text">red beans <br> (400gms)
+                            ₹299</p>
+                        <div class="text-center">
+                            <a href="{% url 'cart' %}" class="btn btn-dark">Add to Cart</a>
+                            <a href="{% url 'buynow' %}" class="btn btn-warning">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mt-4 mb-4">
+                <div class="card">
+                    <img src="{% static 'images/beetle-beans-jpg.webp' %}" class="card-img-top" alt="...">
+                    <div class="card-img-overlayy">
+                        <a href="#" class="btn btn-dark">Sale!</a>
+                    </div>
+                    <div class="card-body text-center">
+                        <p class="card-text">beetle beans <br> (400gms)
+                            ₹299</p>
+                        <div class="text-center">
+                            <a href="{% url 'cart' %}" class="btn btn-dark">Add to Cart</a>
+                            <a href="{% url 'buynow' %}" class="btn btn-warning">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+    <div class="texts">
+        <p> <strong>Kashmiri pulses or Kashmiri dal is a flavorful and aromatic dish from Kashmir. This dish is usually
+                made with a combination of different lentils and pulses. <br>
+                <div>
+
+
+                    Some popular varieties include rajma (kidney beans), moth beans, and mung beans. These pulses are
+                    often used in traditional Kashmiri dishes such as rajma chawal (kidney beans and rice) and haaq
+                    nadru (a dish made with collard greens and lotus stems).
+                </div>
+                Kashmiri pulses are known for their rich flavor and are often used to make hearty and filling meals.
+                <br>
+
+                The lentils are then simmered in a rich and flavorful gravy made with finely chopped onions, tomatoes,
+                ginger, garlic, and a blend of aromatic spices such as cumin, coriander, turmeric, and garam masala.
+
+                <br> The gravy is typically cooked until it thickens and the flavors are well combined. <br>
+
+                Kashmiri pulses are typically served hot with steamed rice or Indian bread such as roti or naan. The
+                dish is often garnished with fresh coriander leaves and served with a dollop of butter or ghee on top to
+                enhance its flavor.
+
+                <br>
+
+                They are one of the richest sources of vegan protein and are rich in antioxidants, fiber, vitamins,
+                minerals, and other phytonutrients. <br>
+
+                Overall, Kashmiri pulses are a delicious and nutritious dish that is packed with protein and fiber.
+                <br>It is a perfect comfort food that is both satisfying and nutritious.
+            </strong></p>
+    </div>
+
+
+
+    <script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js">
+    </script>
+</body>
+
+</html>

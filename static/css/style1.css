@@ -1,0 +1,79 @@
+.hfe-site-logo-img.elementor-animation-{
+    box-sizing: border-box;
+    height: 100px;
+    padding-left: 0px;
+    padding-right: 3px;
+}
+
+.bi-facebook,
+.bi-instagram,
+.bi-youtube,
+.bi-linkedin{
+    font-size: large;
+}
+.dropdown-item{
+    font-size: 20px !important;
+}
+.nav-link.dropdown-toggle{
+    font-size: 17px;
+   
+}
+body{
+    font-family: "Abril Fatface", serif;
+    font-weight: 600;
+    font-style: normal;
+}
+.nav-item{
+    font-size: 17px;
+}
+.bi.bi-search,
+.bi-person-fill,
+.bi-heart,
+.bi-basket,
+.bi-grid-fill,
+.bi-list-task{
+    box-sizing: border-box;
+    font-size: 22px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    line-height: 1;
+    vertical-align: middle;
+    line-height: inherit;
+    content: "";
+    vertical-align: baseline;
+}
+.form-control.me-1{
+    margin-left: 100px;
+    
+}
+.bi-currency-rupee{
+    font-size: 17px;
+    position: fixed;
+    padding-top: 16px;
+}
+.d-block.image{
+    width: 100%;
+    height: 550px;
+}
+.carousel-caption{
+    padding-bottom: 50px;
+}
+.d-block.image1{
+    width: 100%;
+    height: 550px;
+  
+}
+.d-block.image2{
+    width: 100%;
+    height: 550px;
+}
+.carousel-caption.text{
+    color: #ffff;
+}
+.text.mb-5{
+    padding-bottom: 300px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Arsenal+SC:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
